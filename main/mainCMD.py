@@ -4,12 +4,14 @@ import os, time
 
 clear = lambda: os.system('cls')
 
+#loads all things
 print("loading...")
 time.sleep(0.5)
 clear()
 
 print("welcome to richie CMD")
 
+#main function
 def mainCMD():
 
     command = input('>')
@@ -30,6 +32,7 @@ def mainCMD():
 
 
 
-
+    #calls the function again to have multible commads
     mainCMD()
+#calls the function when its starts
 mainCMD()
