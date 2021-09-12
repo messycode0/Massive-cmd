@@ -14,3 +14,9 @@ video game = videoGame or vg
 exit Program = close or exit
 
 clear the console = clear or cls
+
+# how can I use this?
+
+EASY just go to the relese tab and download the .zip file, unzipe it and enjoy. 
+
+MAKE SURE YOU READ THE IMPORTNET NOTES
