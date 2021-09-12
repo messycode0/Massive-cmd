@@ -1,4 +1,4 @@
-# richies-CMD
+# Massive-CMD
 this is a CMD that my friends gives me commands everyday
 
 at the end of the year i should have AT LEAST 365 commands...hopefully..
