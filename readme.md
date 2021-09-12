@@ -1,3 +1,14 @@
-# new?
+# richies-CMD
+this is a CMD that my friends gives me commands everyday
 
-hello this repo is for me to learn git and git hub
+at the end of the year i should have AT LEAST 365 commands...
+
+# list of the current commands
+
+help = help
+
+video game = videoGame or vg
+
+exit Program = close or exit
+
+clear the console = clear or cls
