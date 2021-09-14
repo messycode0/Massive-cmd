@@ -1,34 +1,40 @@
 from time import time
+import jaketools
 import videoGamefRichieCMD
+import WYR
 import os, time
 
-clear = lambda: os.system('cls')
+
 
 #loads all things
 print("loading...")
-time.sleep(0.5)
-clear()
+jaketools.wait(2)
+jaketools.clear()
 
-print("welcome to richie CMD")
+print("welcome to MASSIVE CMD")
 
 #main function
 def mainCMD():
 
-    command = input('>')
+    command = input('>>>')
 
     if command == 'help':
         print('video game = videoGame or vg')
         print('exit Program = close or exit')
         print('clear the console = clear or cls')
+        print('would you rather = wyr or would you rather')
     
     if command == 'clear' or command == 'cls':
-        clear()
+        jaketools.clear()
 
     if command == 'close' or command == 'exit':
         print(0/0)
 
     if command == 'vg' or command == 'videoGame':
         videoGamefRichieCMD.mainGameFunction()
+
+    if command == 'wyr' or command == 'would you rather':
+        WYR.mainFunction()
 
 
 
