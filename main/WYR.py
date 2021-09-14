@@ -9,10 +9,10 @@ def mainFunction():
     print('would you rather 1.die in lava or 2.die in water?')
     answer = input('>')
 
-    if answer == 1:
+    if answer == '1':
         print('intresting...')
 
-    if answer == 2:
+    if answer == '2':
         print('glob glob globb')
 
 
