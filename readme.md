@@ -16,6 +16,8 @@ oh it has started at 9/10/2021
 
 * clear the console = clear or cls
 
+* would you rather = wyr or would you rather
+
 # how can I use this?
 
 EASY just go to the relese tab and download the .zip file, unzipe it and enjoy. 
