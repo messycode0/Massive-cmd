@@ -1,0 +1,2 @@
+def mainFunction():
+    print('testy')

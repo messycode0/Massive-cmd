@@ -1,5 +1,6 @@
 from time import time
 import videoGamefRichieCMD
+import WYR
 import os, time
 
 clear = lambda: os.system('cls')
@@ -14,12 +15,13 @@ print("welcome to richie CMD")
 #main function
 def mainCMD():
 
-    command = input('>')
+    command = input('>>>')
 
     if command == 'help':
         print('video game = videoGame or vg')
         print('exit Program = close or exit')
         print('clear the console = clear or cls')
+        print('would you rather = wyr or would you rather')
     
     if command == 'clear' or command == 'cls':
         clear()
@@ -29,6 +31,9 @@ def mainCMD():
 
     if command == 'vg' or command == 'videoGame':
         videoGamefRichieCMD.mainGameFunction()
+
+    if command == 'wyr' or command == 'would you rather':
+        WYR.mainFunction()
 
 
 
